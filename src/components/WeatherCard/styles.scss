@@ -1,0 +1,37 @@
+@import '../../base.scss';
+
+.weather-card-wrapper {
+    background-color: white;
+    border-radius: 10px;
+    @include shadow;
+    padding: 10px 15px;
+    justify-content: space-between;
+    width: 100%;
+
+    // &.wide {
+    //     width: 100%;
+    // }
+    &.no-shadow {
+        box-shadow: none;
+    }
+
+    h2 {
+        color: $dark-blue;
+        font-weight: normal;
+        align-self: flex-start;
+    }
+    p {
+        margin: 0;
+        color: $dark-blue;
+    }
+
+    .bold {
+        font-family: $fonts-bold;
+    }
+    .medium {
+        font-family: $fonts-medium;
+    }
+    .light {
+        font-family: $fonts-light;
+    }
+}

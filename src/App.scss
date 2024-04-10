@@ -1,0 +1,36 @@
+@import './base.scss';
+
+.App {
+  text-align: center;
+  box-sizing: border-box
+}
+
+.title {
+  @include title;
+  font-size: 26px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  &.col {
+    flex-direction: column;
+
+    &.start {
+      align-items: flex-start;
+    }
+  }
+  &.start {
+    justify-content: flex-start;
+  }
+}
+
+body {
+  color: black;
+  font-family: $fonts-regular;
+  background-color: #f8f8f6;
+  box-sizing: border-box;
+}
