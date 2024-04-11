@@ -33,18 +33,6 @@ $red: #e5004c;
   color: $black-text;
 }
 
-@mixin flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-@mixin flexCol {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
 @mixin primaryBttn {
   padding: 0.9em 1.4em;
   background-color: $medium-blue;

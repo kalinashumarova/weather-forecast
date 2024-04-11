@@ -8,9 +8,11 @@
     justify-content: space-between;
     width: 100%;
 
-    // &.wide {
-    //     width: 100%;
-    // }
+    &.container {
+        height: 80vh;
+        overflow-y: auto;
+        @include scrollbar;
+    }
     &.no-shadow {
         box-shadow: none;
     }

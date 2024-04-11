@@ -9,7 +9,7 @@ export default function WeatherCard({ data, type }) {
   console.log(hoursData)
 
   return (
-    <div className={`weather-card-wrapper flex ${type === 'hour' ? 'col' : ''}`} key={data?.dt}>
+    <div className={`weather-card-wrapper flex ${type === 'hour' ? 'col container' : ''}`} key={data?.dt}>
       {type === 'day' ?
       <>
        <h2>{moment(dailyData?.dt_txt).format('DD.MM')}</h2>
@@ -30,7 +30,7 @@ export default function WeatherCard({ data, type }) {
       hoursData?.map((el, index) => {
         return (
         <div className='weather-card-wrapper wide'>
-          <h2 className='light'>{moment(el?.dt_txt).format('DD.MM HH:mm')}</h2>
+          <h2 className='light'>{moment(el?.dt_txt).format('HH:mm')}</h2>
           <p className='light'>Temperature: <span className='medium'>{el?.main?.temp}°C</span></p>
           <p className='light'>Description: <span className='medium'>{el?.weather?.[0]?.description}</span></p>
           <p className='light'>Feels like : <span className='medium'>{el?.main?.feels_like}°C</span></p>

@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+#React Weather Forecast App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React Weather Forecast App displays the current 5-day weather forecast for the user's current position using geolocation. The app utilizes the OpenWeatherMap API to fetch weather data and is styled using SASS for enhanced design.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Display of 5-day weather forecast for a specified location or current position
+- Display of detailed weather information for each day, including:
+  - Temperature
+  - Description
+  - Feels like
+  - Humidity
+  - Pressure
+  - Wind Speed
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone this repository to your local machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+git clone https://github.com/your-username/react-weather-forecast.git
+```
 
-### `npm test`
+2. Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+cd react-weather-forecast
+```
 
-### `npm run build`
+3. Install dependencies using npm or yarn:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+# or
+yarn install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+To run the app locally, use the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm start
+# or
+yarn start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will start the development server and open the app in your default web browser. You can then view the app by navigating to `http://localhost:3000` in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Additional Features
 
-## Learn More
+Given more time, some additional features could be implemented:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Unit Tests:** Increase test coverage for components and functionalities.
+- **Error Handling:** Implement better error handling for API requests.
+- **Localization:** Add support for multiple languages and units of measurement.
+- **Responsive Design:** Optimize the app for various screen sizes and devices.
+- **Graphical Representation:** Incorporate graphs or charts to visualize weather trends over time.
+- **Accessibility:** Ensure the app is accessible to users with disabilities by following best practices.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributors
 
-### Code Splitting
+- Kalina Shumarova (https://github.com/kalinashumarova)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
