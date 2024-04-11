@@ -1,4 +1,4 @@
-#React Weather Forecast App
+# React Weather Forecast App
 
 This React Weather Forecast App displays the current 5-day weather forecast for the user's current position using geolocation. The app utilizes the OpenWeatherMap API to fetch weather data and is styled using SASS for enhanced design.
 
